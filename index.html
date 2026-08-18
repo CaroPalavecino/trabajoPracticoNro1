@@ -19,7 +19,76 @@
         </nav>
     </header>
        <main>
+ <!-- Sección 1: Formulario para ingresar un nuevo auto -->
+        <section id="registro">
+            <h2>Ingresar Nuevo Auto</h2>
+            <form>
+                <div>
+                    <label for="marca">Marca:</label>
+                    <input type="text" id="marca" name="marca" placeholder="Ejemplo: Fiat">
+                </div>
 
+                <div>
+                    <label for="modelo">Modelo:</label>
+                    <input type="text" id="modelo" name="modelo" placeholder="Ejemplo: Cronos">
+                </div>
+
+                <div>
+                    <label for="anio">Año:</label>
+                    <input type="number" id="anio" name="anio" placeholder="Ejemplo: 2023">
+                </div>
+
+                <div>
+                    <label for="precio">Precio ($):</label>
+                    <input type="number" id="precio" name="precio" placeholder="Ejemplo: 15000">
+                </div>
+
+                <button type="submit">Guardar Auto</button>
+            </form>
+        </section>
+        <!-- Sección: Filtro y Búsqueda -->
+        <section id="filtros">
+            <h2>Buscar Vehículo</h2>
+            <form id="form-busqueda">
+                <div>
+                    <label for="buscar-marca">Filtrar por Marca:</label>
+                    <input type="text" id="buscar-marca" placeholder="Buscar por marca...">
+                </div>
+                <div>
+                    <label for="buscar-precio">Precio ($):</label>
+                    <input type="number" id="buscar-precio" placeholder="Ej: 20000">
+                </div>
+                <button type="button">Filtrar</button>
+            </form>
+        </section>
+             <!-- Sección 2: Tabla para mostrar los autos registrados -->
+        <section id="catalogo">
+            <h2>Autos Disponibles</h2>
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>Marca</th>
+                        <th>Modelo</th>
+                        <th>Año</th>
+                        <th>Precio</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Fiat</td>
+                        <td>Cronos</td>
+                        <td>2023</td>
+                        <td>$15.000</td>
+                    </tr>
+                    <tr>
+                        <td>Ford</td>
+                        <td>Ranger</td>
+                        <td>2022</td>
+                        <td>$28.000</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
        </main>
 
     <!-- Pie de página -->
