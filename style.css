@@ -16,3 +16,30 @@ main {
     max-width: 1000px;
     margin: 0 auto;
 }
+/*encabezado*/
+header {
+    background-color: #f0efc2;
+    padding: 20px;
+    border-radius: 9px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+/*secciones*/
+section {
+background-color: #f0efc2;
+padding: 20px;
+border: 1px solid #ccc;
+border-radius: 9px;
+}
+
+/*titulos secundarios*/
+h2 {
+    color: black;
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 10px;
+    margin-top: 0;
+}
