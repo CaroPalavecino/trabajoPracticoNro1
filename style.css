@@ -88,3 +88,31 @@ nav a {
 nav a:hover {
     text-decoration: underline;
 }
+/*catalogo*/
+table {
+    width: 100%;
+    border-collapse: collapse;
+margin-top: 15px;
+}
+th, td {
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: left;
+}
+th {
+    background-color: #e0dfab;
+}
+/pie de pagina/
+footer {
+    text-align: center;
+    padding: 10px;
+    color: #555;
+}
+@media (min-width: 768px) {
+    main{
+        grid-template-columns: 1fr 1fr;
+    }
+    #catalogo, #contacto{
+        grid-column: span 2;
+    }
+}
