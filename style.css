@@ -1,27 +1,38 @@
+:root {
+    --color-header: rgb(252, 250, 147);
+    --color-text: black;
+    --color-fondo: white;
+    --color-button: green;
+    --color-button-hover: red;
+    --color-border: black;
+    --padding-general: 20px;
+    --ancho-max: 1000px;
+    --fuente: arial, sans-serif;
+}
 * {
     box-sizing: border-box;
 }
 
 body {
-font-family: Arial, sans-serif;
-background-color: white;
+font-family: var(--fuente);
+background-color: var(--color-fondo);
 margin: 0;
-padding: 20px;
-color: black;
+padding: var(--padding-general);
+color: var(--color-text);
 }
 main {
     display: grid;
     grid-template-columns: 1fr;
-    gap: 20px;
-    max-width: 1000px;
+    gap: var(--padding-general);
+    max-width: var(--ancho-max);
     margin: 0 auto;
 }
 /*encabezado*/
 header {
-    background-color: #f0efc2;
-    padding: 20px;
+    background-color: var(--color-header);
+    padding: var(--padding-general);
     border-radius: 9px;
-    margin-bottom: 20px;
+    margin-bottom: var(--padding-general);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -30,16 +41,16 @@ header {
 
 /*secciones*/
 section {
-background-color: #f0efc2;
-padding: 20px;
-border: 1px solid #ccc;
+background-color: var(--color-header);
+padding: var(--padding-general);
+border: 1px solid var(--color-border);
 border-radius: 9px;
 }
 
 /*titulos secundarios*/
 h2 {
-    color: black;
-    border-bottom: 2px solid #ccc;
+    color: var(--color-text);
+    border-bottom: 2px solid var(--color-border);
     padding-bottom: 10px;
     margin-top: 0;
 }
@@ -55,13 +66,13 @@ label {
 input {
     width: 100%;
     padding: 8px;
-    border: 1px solid #ccc;
+    border: 1px solid var(--color-border);
     border-radius: 4px;
 }
 
-/boton de envio/
+/*boton de envio*/
 button {
-background-color: #4CAF50;
+background-color: var(--color-button);
 color: white;
 border: none;
 padding: 10px 20px;
@@ -69,10 +80,10 @@ border-radius: 4px;
 cursor: pointer;
 }
 button:hover {
-background-color: #45a049;
+background-color: var(--color-button-hover);
 }
 
-/navegacion/
+/*navegacion*/
 nav ul {
     list-style-type: none;
     padding: 0;
@@ -81,7 +92,7 @@ nav ul {
     gap: 15px;
 }
 nav a {
-    color: black;
+    color: var(--color-text);
     text-decoration: none;
     font-weight: bold;
 }
@@ -96,17 +107,17 @@ margin-top: 15px;
 }
 th, td {
     padding: 10px;
-    border: 1px solid #ccc;
+    border: 1px solid var(--color-border);
     text-align: left;
 }
 th {
-    background-color: #e0dfab;
+    background-color: var(--color-header);
 }
-/pie de pagina/
+/*pie de pagina*/
 footer {
     text-align: center;
     padding: 10px;
-    color: #555;
+    color: var(--color-text);
 }
 @media (min-width: 768px) {
     main{
@@ -114,5 +125,23 @@ footer {
     }
     #catalogo, #contacto{
         grid-column: span 2;
+    }
+}
+@media (max-width: 480px) {
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+    button {
+        width: 100%;
+    }
+}
+@media (min-width: 1024px) {
+    section {
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+    }
+    table tr:hover {
+        background-color: rgba(0, 0, 0, 0.05);
     }
 }
