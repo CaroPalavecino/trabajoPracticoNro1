@@ -1,3 +1,4 @@
+/*
 :root {
     --color-header: rgb(252, 250, 147);
     --color-text: black;
@@ -27,7 +28,7 @@ main {
     max-width: var(--ancho-max);
     margin: 0 auto;
 }
-/*encabezado*/
+/*encabezado
 header {
     background-color: var(--color-header);
     padding: var(--padding-general);
@@ -39,7 +40,7 @@ header {
     gap: 10px;
 }
 
-/*secciones*/
+/*secciones
 section {
 background-color: var(--color-header);
 padding: var(--padding-general);
@@ -47,14 +48,14 @@ border: 1px solid var(--color-border);
 border-radius: 9px;
 }
 
-/*titulos secundarios*/
+/*titulos secundarios*
 h2 {
     color: var(--color-text);
     border-bottom: 2px solid var(--color-border);
     padding-bottom: 10px;
     margin-top: 0;
 }
-/*formulario*/
+/*formulario*
 form div {
     margin-bottom: 15px;
 }
@@ -70,7 +71,7 @@ input {
     border-radius: 4px;
 }
 
-/*boton de envio*/
+/*boton de envio*
 button {
 background-color: var(--color-button);
 color: white;
@@ -83,7 +84,7 @@ button:hover {
 background-color: var(--color-button-hover);
 }
 
-/*navegacion*/
+/*navegacion*
 nav ul {
     list-style-type: none;
     padding: 0;
@@ -99,7 +100,7 @@ nav a {
 nav a:hover {
     text-decoration: underline;
 }
-/*catalogo*/
+/*catalogo*
 table {
     width: 100%;
     border-collapse: collapse;
@@ -113,7 +114,7 @@ th, td {
 th {
     background-color: var(--color-header);
 }
-/*pie de pagina*/
+/*pie de pagina*
 footer {
     text-align: center;
     padding: 10px;
@@ -149,3 +150,4 @@ footer {
     width: 300px;
     height: auto;
 }
+*/

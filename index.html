@@ -3,78 +3,88 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Concesionaria en Tucumán | Venta y Catálogo de Autos</title>
-    <meta name="description" content="Concesionaria líder en Tucumán. Consultá nuestro catálogo de autos usados y 0km, filtrá por marca y registrá tu vehículo.">
-    <meta name="keywords" content="concesionaria, autos usados, autos 0km, Tucuman, venta de autos, catalogo">
+    <title>CIBR  | Concesionaria de Vehículos - Tucumán</title>
+    <meta name="description" content="Concesionaria líder en Tucumán. Consultá nuestro catálogo de vehículos usados y 0km, filtrá por marca y registrá tu vehículo.">
+    <meta name="keywords" content="concesionaria, vehículos usados, vehículos 0km, Tucuman, venta de vehículos, catalogo">
     <meta name="author" content="Caro, Rocio, Belen, Nacho">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
     <!-- Encabezado -->
-    <header>
+    <header class="bg-black text-white p-3 text-center">
         <h1>Concesionaria de Vehículos</h1>
-        <img src="imagen/logo.png" alt="Logo de la Concesionaria" class="logo">
-        <nav>
-            <ul>
-                <li><a href="#registro">Registrar Auto</a></li>
-                <li><a href="#filtros">Buscar Vehículo</a></li>
-                <li><a href="#catalogo">Catálogo de Autos</a></li>
-                <li><a href="#contacto">Contacto</a></li>
+        <img src="imagen/logo.png" alt="Logo de la Concesionaria" class="logo" style="width: 150px; height: auto;">
+        <nav class="mt-3">
+            <ul class="nav justify-content-center">
+                <li><a href="#registro" class="nav-link text-white">Ingresar Nuevo Vehículo</a></li>
+                <li><a href="#filtros" class="nav-link text-white">Buscar Vehículo</a></li>
+                <li><a href="#catalogo" class="nav-link text-white">Catálogo de Vehículos</a></li>
+                <li><a href="#contacto" class="nav-link text-white">Contacto</a></li>
             </ul>
         </nav>
     </header>
-       <main>
+     <div class="container my-4 text-center bg-white p-3 rounded shadow-sm">
+                <img src="imagen/portada.png" alt="Imagen de Portada" class="img-fluid rounded shadow-sm mb-3" style="max-width: 70%; height: auto;">
+            </div>
+       <main class="container">
  <!-- Sección 1: Formulario para ingresar un nuevo auto -->
-        <section id="registro">
-            <h2>Ingresar Nuevo Auto</h2>
+        <section id="registro" class="card shadow-sm mb-4">
+            <div class="card-body">
+            <h2 class="card-title">Ingresar Nuevo Vehículo</h2>
             <form>
-                <div>
-                    <label for="marca">Marca:</label>
-                    <input type="text" id="marca" name="marca" placeholder="Ejemplo: Fiat">
+                <div class="mb-3"> 
+                    <label for="marca" class="form-label">Marca:</label>
+                    <input type="text" id="marca" name="marca" class="form-control" placeholder="Ejemplo: Fiat">
                 </div>
 
-                <div>
-                    <label for="modelo">Modelo:</label>
-                    <input type="text" id="modelo" name="modelo" placeholder="Ejemplo: Cronos">
+                <div class="mb-3">
+                    <label for="modelo" class="form-label">Modelo:</label>
+                    <input type="text" id="modelo" name="modelo" class="form-control" placeholder="Ejemplo: Cronos">
                 </div>
 
-                <div>
-                    <label for="anio">Año:</label>
-                    <input type="number" id="anio" name="anio" placeholder="Ejemplo: 2023">
+                <div class="mb-3">
+                    <label for="anio" class="form-label">Año:</label>
+                    <input type="number" id="anio" name="anio" class="form-control" placeholder="Ejemplo: 2023">
                 </div>
 
-                <div>
-                    <label for="precio">Precio ($):</label>
-                    <input type="number" id="precio" name="precio" placeholder="Ejemplo: 15000">
+                <div class="mb-3">
+                    <label for="precio" class="form-label">Precio ($):</label>
+                    <input type="number" id="precio" name="precio" class="form-control" placeholder="Ejemplo: 15000">
                 </div>
-
-                <button type="submit">Guardar Auto</button>
+                  <!--boton con bootstrap -->
+                <button type="submit" class="btn btn-primary">Guardar Auto</button>
             </form>
         </section>
         <!-- Sección: Filtro y Búsqueda -->
-        <section id="filtros">
-            <h2>Buscar Vehículo</h2>
-            <form id="form-busqueda">
-                <div>
-                    <label for="buscar-marca">Filtrar por Marca:</label>
-                    <input type="text" id="buscar-marca" placeholder="Buscar por marca...">
-                </div>
-                <div>
-                    <label for="buscar-precio">Precio ($):</label>
-                    <input type="number" id="buscar-precio" placeholder="Ej: 20000">
-                </div>
-                <button type="button">Filtrar</button>
-            </form>
+        <section id="filtros" class="card shadow-sm mb-4">
+            <div class="card-body">
+                <h2 class="card-title">Buscar Vehículo</h2>
+                <form id="form-busqueda">
+                    <div class="mb-3">
+                        <label for="buscar-marca" class="form-label">Filtrar por Marca:</label>
+                        <input type="text" id="buscar-marca" class="form-control" placeholder="Buscar por marca...">
+                    </div>
+                    <div class="mb-3">
+                        <label for="buscar-precio" class="form-label">Precio ($):</label>
+                        <input type="number" id="buscar-precio" class="form-control" placeholder="Ej: 20000">
+                    </div>
+                    <!--boton con bootstrap -->
+                    <button type="button" class="btn btn-primary">Filtrar</button>
+                </form>
+            </div>
         </section>
              <!-- Sección 2: Tabla para mostrar los autos registrados -->
-        <section id="catalogo">
-            <h2>Autos Disponibles</h2>
-            <table border="1">
-                <thead>
-                    <tr>
-                        <th>Marca</th>
-                        <th>Modelo</th>
+        <section id="catalogo" class="card shadow-sm mb-4">
+            <div class="card-body">
+                <h2 class="card-title">Vehículos Disponibles</h2>
+                <div class="table-responsive">
+                <table class="table table-striped">
+                    <thead class="table-dark">
+                        <tr>
+                            <th>Marca</th>
+                            <th>Modelo</th>
                         <th>Año</th>
                         <th>Precio</th>
                     </tr>
@@ -96,10 +106,12 @@
             </table>
         </section>
         <!-- Sección 3: Datos de contacto -->
-        <section id="contacto">
-            <h2>Contacto</h2>
-            <p>Dirección: Av. Principal 1234</p>
-            <p>Teléfono: 381-123456</p>
+        <section id="contacto" class="card shadow-sm mb-4">
+            <div class="card-body">
+                <h2 class="card-title">Contacto</h2>
+                <p>Dirección: Av. Principal 1234</p>
+                <p>Teléfono: 381-123456</p>
+            </div>
         </section>
        </main>
 
@@ -107,6 +119,6 @@
     <footer>
         <p>&copy; 2026 Concesionaria de Autos - Trabajo Práctico N° 1</p>
     </footer>
-
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 </body>
 </html>
