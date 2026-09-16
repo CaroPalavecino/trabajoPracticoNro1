@@ -13,14 +13,15 @@
 * {
     box-sizing: border-box;
 }
-
+*/
 body {
-font-family: var(--fuente);
-background-color: var(--color-fondo);
-margin: 0;
-padding: var(--padding-general);
-color: var(--color-text);
+background-color: #121212 !important;
+
 }
+.card {
+    background-color: rgba(255, 255, 255, 0.9);
+}
+/*
 main {
     display: grid;
     grid-template-columns: 1fr;
@@ -151,3 +152,20 @@ footer {
     height: auto;
 }
 */
+.opcion-categoria {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+}
+
+.opcion-categoria:hover {
+    transform: translateY(-10px); 
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2) !important;
+}
+
+.opcion-categoria img {
+    transition: transform 0.3s ease;
+}
+
+.opcion-categoria:hover img {
+    transform: scale(1.03); 
+}
