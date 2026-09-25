@@ -1,98 +1,115 @@
-🚗 Trabajo Práctico N.º 1 — Concesionaria de Autos CIBR
+# 🚗 Trabajo Práctico N.º 1 — Concesionaria de Autos CIBR
 
-¡Bienvenidos al repositorio de nuestro Trabajo Práctico N.º 1!
+<p align="center">
+  <img width="1000" alt="Página principal de la concesionaria CIBR" src="https://github.com/user-attachments/assets/8d8bf768-977e-4d60-a205-0610a3dc66e2" />
+</p>
 
-En este proyecto desarrollamos una página web para la concesionaria de vehículos CIBR, cuyo objetivo es ofrecer un catálogo de automóviles de manera sencilla, organizada y atractiva.
+## 📌 Descripción del proyecto
 
-Los usuarios pueden visualizar los vehículos disponibles, realizar búsquedas y aplicar filtros, además de consultar promociones y datos de contacto. Por otra parte, el administrador cuenta con funciones para registrar nuevos vehículos dentro del sistema.
+¡Bienvenidos al repositorio de nuestro **Trabajo Práctico N.º 1**!
 
+En este proyecto desarrollamos una página web para la concesionaria de vehículos **CIBR**, cuyo objetivo es ofrecer un catálogo de automóviles de manera sencilla, organizada y atractiva.
 
+Los usuarios pueden visualizar los vehículos disponibles, realizar búsquedas y aplicar filtros, además de consultar promociones y datos de contacto.
 
-👥 Integrantes del grupo
+Por otra parte, el administrador cuenta con funciones para registrar nuevos vehículos dentro del sistema.
 
-- Ana Carolina Palavecino
-- Rocio Belén Palavecino
-- Diarte Rocío Luz
-- Bacary Diaz Ignacio
+---
 
+## 👥 Integrantes del grupo
 
+* **Ana Carolina Palavecino**
+* **Rocio Belén Palavecino**
+* **Diarte Rocío Luz**
+* **Bacary Diaz Ignacio**
 
-🛠️ Tecnologías utilizadas
+---
 
-🌐 HTML5
+## 🛠️ Tecnologías utilizadas
 
-Utilizamos HTML5 para crear la estructura y organización del contenido de la página web, incluyendo las diferentes secciones, formularios, catálogo y datos de contacto.
+### 🌐 HTML5
 
-🎨 CSS3
+Utilizamos **HTML5** para crear la estructura y organización del contenido de la página web, incluyendo las diferentes secciones, formularios, catálogo y datos de contacto.
 
-Utilizamos CSS3 para personalizar la apariencia de la página, aplicando estilos propios y un diseño en modo oscuro.
+### 🎨 CSS3
 
-🅱️ Bootstrap 5
+Utilizamos **CSS3** para personalizar la apariencia de la página, aplicando estilos propios y un diseño en modo oscuro.
 
-Utilizamos Bootstrap 5 para facilitar el diseño y lograr que la página sea responsive, adaptándose a diferentes tamaños de pantalla.
+### 🅱️ Bootstrap 5
 
-También utilizamos algunos de sus componentes, como:
+Utilizamos **Bootstrap 5** para facilitar el diseño y lograr que la página sea **responsive**, adaptándose a diferentes tamaños de pantalla.
 
-- Grilla responsive.
-- Carrusel de imágenes.
-- Ventana modal para el inicio de sesión.
+También utilizamos algunos de sus componentes:
 
-⚙️ JavaScript (Vanilla)
+* Grilla responsive.
+* Carrusel de imágenes.
+* Ventana modal para el inicio de sesión.
 
-Utilizamos JavaScript para agregar funcionalidad e interacción a la página:
+### ⚙️ JavaScript (Vanilla)
 
-- Control del inicio de sesión del administrador.
-- Mostrar y ocultar secciones según el tipo de usuario.
-- Registro de nuevos vehículos.
-- Validaciones de formularios.
-- Filtro de búsqueda del catálogo en tiempo real.
-- Manipulación dinámica de los elementos de la página.
+Utilizamos **JavaScript** para agregar funcionalidad e interacción a la página:
 
-⭐ Font Awesome
+* Control del inicio de sesión del administrador.
+* Mostrar y ocultar secciones según el tipo de usuario.
+* Registro de nuevos vehículos.
+* Validaciones de formularios.
+* Filtro de búsqueda del catálogo en tiempo real.
+* Manipulación dinámica de los elementos de la página.
 
-Utilizamos Font Awesome para incorporar íconos que ayudan a mejorar la presentación y navegación de la página.
+### ⭐ Font Awesome
 
+Utilizamos **Font Awesome** para incorporar íconos que ayudan a mejorar la presentación y navegación de la página.
 
+---
 
-⚙️ Funcionalidades principales
+## ⚙️ Funcionalidades principales
 
-🔐 1. Control de sesión del administrador
+### 🔐 1. Control de sesión del administrador
 
 La página cuenta con un sistema de inicio de sesión desarrollado con JavaScript.
 
 Cuando el administrador inicia sesión correctamente, se habilitan las funciones correspondientes a la administración de vehículos.
 
-📝 2. Registro de vehículos
+### 📝 2. Registro de vehículos
 
 El administrador dispone de un formulario que permite ingresar nuevos vehículos.
 
 Los datos ingresados se incorporan dinámicamente al catálogo de la página.
 
-🔍 3. Búsqueda y filtrado
+### 🔍 3. Búsqueda y filtrado
 
-El catálogo cuenta con una funcionalidad de búsqueda que permite filtrar los vehículos en tiempo real, según las opciones disponibles.
+El catálogo cuenta con una funcionalidad de búsqueda que permite filtrar los vehículos en tiempo real según las opciones disponibles.
 
 Esto facilita al usuario encontrar rápidamente el vehículo que está buscando.
 
-🎠 4. Carrusel promocional
+### 🎠 4. Carrusel promocional
 
-Se implementó un carrusel de Bootstrap con imágenes promocionales.
+<p align="center">
+  <img width="900" alt="Carrusel promocional de la concesionaria CIBR" src="https://github.com/user-attachments/assets/e01ed832-6aa3-4c76-b0e8-1fd00aad4e48" />
+</p>
+
+Se implementó un **carrusel de Bootstrap** con imágenes promocionales.
 
 Las imágenes cambian automáticamente cada 4 segundos, permitiendo mostrar diferentes promociones de la concesionaria.
 
-📞 5. Sección de contacto
+### 📞 5. Sección de contacto
+
+<p align="center">
+  <img width="900" alt="Sección de contacto de la concesionaria CIBR" src="https://github.com/user-attachments/assets/89edafa9-7a8c-43ae-862b-588746d76798" />
+</p>
 
 Se diseñó una sección de contacto utilizando la grilla de Bootstrap, organizando la información en dos columnas.
 
 Se incorporaron imágenes e íconos personalizados para representar los diferentes medios de contacto, como:
 
-- 📱 Teléfono.
-- 📧 Correo electrónico.
+* 📱 Teléfono.
+* 📧 Correo electrónico.
 
+---
 
+## 📁 Estructura del proyecto
 
-📁 Estructura del proyecto
-
+```text
 📦 Trabajo-Práctico-N°1
 │
 ├── 📄 index.html
@@ -103,46 +120,54 @@ Se incorporaron imágenes e íconos personalizados para representar los diferent
     ├── 🚗 Imágenes de vehículos
     ├── 🏢 Logos
     └── ⭐ Íconos
+```
 
-📄 "index.html"
+### 📄 `index.html`
 
 Contiene la estructura principal y el contenido de la página web.
 
-🎨 "style.css"
+### 🎨 `style.css`
 
 Contiene los estilos personalizados, colores, tamaños, distribución y diseño visual de la página.
 
-⚙️ "script.js"
+### ⚙️ `script.js`
 
 Contiene la lógica de JavaScript, incluyendo eventos, funciones, validaciones, inicio de sesión, filtros y registro de vehículos.
 
-📁 "imagen/"
+### 📁 `imagen/`
 
 Contiene las imágenes utilizadas en el proyecto, como vehículos, logos e íconos.
 
 
 
-🚀 ¿Cómo probar el proyecto?
+## 🚀 ¿Cómo probar el proyecto?
 
 Para ejecutar el proyecto:
 
 1. Clonar el repositorio o descargar el archivo ZIP.
 2. Abrir la carpeta del proyecto.
-3. Abrir el archivo "index.html" en un navegador.
+3. Abrir el archivo `index.html` en un navegador.
 
-También se puede utilizar Visual Studio Code junto con la extensión Live Server para ejecutar la página durante el desarrollo.
-
-
-
-🎯 Objetivo del proyecto
-
-El objetivo de este trabajo práctico es aplicar los conocimientos adquiridos en HTML, CSS, Bootstrap y JavaScript, desarrollando una página web interactiva para una concesionaria de vehículos.
-
-El proyecto busca integrar estructura, diseño, responsividad y funcionalidad, permitiendo que tanto los usuarios como el administrador puedan interactuar con el sistema de manera sencilla.
+También se puede utilizar **Visual Studio Code** junto con la extensión **Live Server** para ejecutar la página durante el desarrollo.
 
 
+## 🎯 Objetivo del proyecto
 
-📌 Trabajo Práctico N.º 1
+El objetivo de este trabajo práctico es aplicar los conocimientos adquiridos en **HTML, CSS, Bootstrap y JavaScript**, desarrollando una página web interactiva para una concesionaria de vehículos.
 
-Concesionaria de Autos CIBR
-Desarrollado como proyecto académico.
+El proyecto busca integrar:
+
+* 📄 Estructura y organización mediante HTML5.
+* 🎨 Diseño y estilos mediante CSS3.
+* 📱 Adaptabilidad a diferentes dispositivos mediante Bootstrap.
+* ⚙️ Interactividad y funcionalidades mediante JavaScript.
+* 🔎 Búsqueda y filtrado dinámico de vehículos.
+* 🔐 Control de acceso para las funciones del administrador.
+
+De esta manera, se integran los conocimientos aprendidos durante la cursada en un proyecto web funcional.
+
+---
+
+
+
+**Trabajo Práctico N.º 1 — Concesionaria de Autos CIBR**
