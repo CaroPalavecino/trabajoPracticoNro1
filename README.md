@@ -1,61 +1,147 @@
-# 🚗 Trabajo Práctico N° 1 - Concesionaria de Autos CIBR
+🚗 Trabajo Práctico N.º 1 — Concesionaria de Autos CIBR
 
-¡Hola! Este es el repositorio de nuestro *Trabajo Práctico N° 1*. Desarrollamos una página web para una concesionaria de vehículos donde los usuarios pueden ver el catálogo de autos, filtrar por opciones y ver promociones, mientras que el administrador puede registrar nuevos vehículos en el sistema.
+¡Bienvenidos al repositorio de nuestro Trabajo Práctico N.º 1!
 
----
+En este proyecto desarrollamos una página web para la concesionaria de vehículos CIBR, cuyo objetivo es ofrecer un catálogo de automóviles de manera sencilla, organizada y atractiva.
 
-## 👥 Integrantes del Grupo
-* *Ana Carolina Palavecino*
-* *Rocio Belén Palavecino*
-* *Diarte Rocío Luz*
-* *Bacary Diaz Ignacio*
+Los usuarios pueden visualizar los vehículos disponibles, realizar búsquedas y aplicar filtros, además de consultar promociones y datos de contacto. Por otra parte, el administrador cuenta con funciones para registrar nuevos vehículos dentro del sistema.
 
----
 
-## 🛠️ Tecnologías que utilizamos
-* *HTML5*: Para armar la estructura y las secciones principales de la página.
-* *CSS3*: Para los estilos personalizados y el diseño en modo oscuro (#121212).
-* *Bootstrap 5*:
-  * Para la grilla responsiva que adapta la página a celulares y computadoras.
-  * Componentes como el *Carrusel de fotos* dinámico y la ventana *Modal* de inicio de sesión.
-* *JavaScript (Vanilla)*:
-  * Control del inicio de sesión (al iniciar sesión como admin se muestran/ocultan partes de la página).
-  * Lógica para el formulario de registro de nuevos vehículos.
-  * Funcionalidad para el filtro de búsqueda del catálogo en tiempo real.
-* *Font Awesome*: Para los íconos de la página.
 
----
+👥 Integrantes del grupo
 
-## ⚙️ ¿Qué tiene nuestra página?
+- Ana Carolina Palavecino
+- Rocio Belén Palavecino
+- Diarte Rocío Luz
+- Bacary Diaz Ignacio
 
-1. *🔐 Control de Sesión (Admin)*
-   * Usamos JavaScript para controlar si el usuario inició sesión. 
-   * Si inicia sesión como administrador, se oculta la portada y se habilita el formulario para cargar nuevos vehículos.
 
-2. *📝 Formulario de Registro de Vehículos*
-   * Permite ingresar datos de nuevos autos/camionetas y los agrega dinámicamente al listado.
 
-3. *🔍 Filtro de Búsqueda*
-   * Permite filtrar la lista de vehículos en tiempo real según el tipo o categoría seleccionada.
+🛠️ Tecnologías utilizadas
 
-4. *🎠 Carrusel Promocional*
-   * Implementamos un carrusel de Bootstrap en la parte inferior con imágenes que van cambiando automáticamente cada 4 segundos.
+🌐 HTML5
 
-5. *📞 Sección de Contacto Refactorizada*
-   * Rediseñamos la sección de contacto en 2 columnas parejas usando la grilla de Bootstrap, agregando imágenes personalizadas para el teléfono y el e-mail.
+Utilizamos HTML5 para crear la estructura y organización del contenido de la página web, incluyendo las diferentes secciones, formularios, catálogo y datos de contacto.
 
----
+🎨 CSS3
 
-## 📁 Archivos del Proyecto
+Utilizamos CSS3 para personalizar la apariencia de la página, aplicando estilos propios y un diseño en modo oscuro.
 
-* index.html: Estructura principal de la página web.
-* style.css: Hojas de estilo y personalización del tema oscuro.
-* script.js: Archivo con toda la lógica de JavaScript (eventos, funciones y validaciones).
-* imagen/: Carpeta con los autos, logos e íconos utilizados.
+🅱️ Bootstrap 5
 
----
+Utilizamos Bootstrap 5 para facilitar el diseño y lograr que la página sea responsive, adaptándose a diferentes tamaños de pantalla.
 
-## 🚀 Cómo probar el proyecto
+También utilizamos algunos de sus componentes, como:
 
-1. Clonar el repositorio o descargar el ZIP del proyecto.
-2. Abrir el archivo index.html directamente en el navegador (o usar la extensión Live Server de Visual Studio Code).
+- Grilla responsive.
+- Carrusel de imágenes.
+- Ventana modal para el inicio de sesión.
+
+⚙️ JavaScript (Vanilla)
+
+Utilizamos JavaScript para agregar funcionalidad e interacción a la página:
+
+- Control del inicio de sesión del administrador.
+- Mostrar y ocultar secciones según el tipo de usuario.
+- Registro de nuevos vehículos.
+- Validaciones de formularios.
+- Filtro de búsqueda del catálogo en tiempo real.
+- Manipulación dinámica de los elementos de la página.
+
+⭐ Font Awesome
+
+Utilizamos Font Awesome para incorporar íconos que ayudan a mejorar la presentación y navegación de la página.
+
+
+
+⚙️ Funcionalidades principales
+
+🔐 1. Control de sesión del administrador
+
+La página cuenta con un sistema de inicio de sesión desarrollado con JavaScript.
+
+Cuando el administrador inicia sesión correctamente, se habilitan las funciones correspondientes a la administración de vehículos.
+
+📝 2. Registro de vehículos
+
+El administrador dispone de un formulario que permite ingresar nuevos vehículos.
+
+Los datos ingresados se incorporan dinámicamente al catálogo de la página.
+
+🔍 3. Búsqueda y filtrado
+
+El catálogo cuenta con una funcionalidad de búsqueda que permite filtrar los vehículos en tiempo real, según las opciones disponibles.
+
+Esto facilita al usuario encontrar rápidamente el vehículo que está buscando.
+
+🎠 4. Carrusel promocional
+
+Se implementó un carrusel de Bootstrap con imágenes promocionales.
+
+Las imágenes cambian automáticamente cada 4 segundos, permitiendo mostrar diferentes promociones de la concesionaria.
+
+📞 5. Sección de contacto
+
+Se diseñó una sección de contacto utilizando la grilla de Bootstrap, organizando la información en dos columnas.
+
+Se incorporaron imágenes e íconos personalizados para representar los diferentes medios de contacto, como:
+
+- 📱 Teléfono.
+- 📧 Correo electrónico.
+
+
+
+📁 Estructura del proyecto
+
+📦 Trabajo-Práctico-N°1
+│
+├── 📄 index.html
+├── 🎨 style.css
+├── ⚙️ script.js
+│
+└── 📁 imagen/
+    ├── 🚗 Imágenes de vehículos
+    ├── 🏢 Logos
+    └── ⭐ Íconos
+
+📄 "index.html"
+
+Contiene la estructura principal y el contenido de la página web.
+
+🎨 "style.css"
+
+Contiene los estilos personalizados, colores, tamaños, distribución y diseño visual de la página.
+
+⚙️ "script.js"
+
+Contiene la lógica de JavaScript, incluyendo eventos, funciones, validaciones, inicio de sesión, filtros y registro de vehículos.
+
+📁 "imagen/"
+
+Contiene las imágenes utilizadas en el proyecto, como vehículos, logos e íconos.
+
+
+
+🚀 ¿Cómo probar el proyecto?
+
+Para ejecutar el proyecto:
+
+1. Clonar el repositorio o descargar el archivo ZIP.
+2. Abrir la carpeta del proyecto.
+3. Abrir el archivo "index.html" en un navegador.
+
+También se puede utilizar Visual Studio Code junto con la extensión Live Server para ejecutar la página durante el desarrollo.
+
+
+
+🎯 Objetivo del proyecto
+
+El objetivo de este trabajo práctico es aplicar los conocimientos adquiridos en HTML, CSS, Bootstrap y JavaScript, desarrollando una página web interactiva para una concesionaria de vehículos.
+
+El proyecto busca integrar estructura, diseño, responsividad y funcionalidad, permitiendo que tanto los usuarios como el administrador puedan interactuar con el sistema de manera sencilla.
+
+
+📌 Trabajo Práctico N.º 1
+
+Concesionaria de Autos CIBR
+Desarrollado como proyecto académico.
