@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # 🚗 Trabajo Práctico N.º 1 — Concesionaria de Autos CIBR
 
 <p align="center">
@@ -15,7 +15,6 @@ Los usuarios pueden visualizar los vehículos disponibles, realizar búsquedas y
 
 Por otra parte, el administrador cuenta con funciones para registrar nuevos vehículos dentro del sistema.
 
----
 
 ## 👥 Integrantes del grupo
 
@@ -24,7 +23,6 @@ Por otra parte, el administrador cuenta con funciones para registrar nuevos veh�
 * **Diarte Rocío Luz**
 * **Bacary Diaz Ignacio**
 
----
 
 ## 🛠️ Tecnologías utilizadas
 
@@ -61,9 +59,9 @@ Utilizamos **JavaScript** para agregar funcionalidad e interacción a la página
 
 Utilizamos **Font Awesome** para incorporar íconos que ayudan a mejorar la presentación y navegación de la página.
 
----
 
 ## ⚙️ Funcionalidades principales
+
 
 ### 🔐 1. Control de sesión del administrador
 
@@ -106,11 +104,8 @@ Se incorporaron imágenes e íconos personalizados para representar los diferent
 * 📱 Teléfono.
 * 📧 Correo electrónico.
 
----
-
 ## 📁 Estructura del proyecto
 
-```text
 📦 Trabajo-Práctico-N°1
 │
 ├── 📄 index.html
@@ -121,7 +116,7 @@ Se incorporaron imágenes e íconos personalizados para representar los diferent
     ├── 🚗 Imágenes de vehículos
     ├── 🏢 Logos
     └── ⭐ Íconos
-```
+
 
 ### 📄 `index.html`
 
@@ -136,10 +131,7 @@ Contiene los estilos personalizados, colores, tamaños, distribución y diseño 
 Contiene la lógica de JavaScript, incluyendo eventos, funciones, validaciones, inicio de sesión, filtros y registro de vehículos.
 
 ### 📁 `imagen/`
-
 Contiene las imágenes utilizadas en el proyecto, como vehículos, logos e íconos.
-
-
 
 ## 🚀 ¿Cómo probar el proyecto?
 
@@ -147,6 +139,7 @@ Para ejecutar el proyecto:
 
 1. Clonar el repositorio o descargar el archivo ZIP.
 2. Abrir la carpeta del proyecto.
+
 3. Abrir el archivo `index.html` en un navegador.
 
 También se puede utilizar **Visual Studio Code** junto con la extensión **Live Server** para ejecutar la página durante el desarrollo.
@@ -166,3 +159,4 @@ El proyecto busca integrar:
 * 🔐 Control de acceso para las funciones del administrador.
 
 De esta manera, se integran los conocimientos aprendidos durante la cursada en un proyecto web funcional.
+
