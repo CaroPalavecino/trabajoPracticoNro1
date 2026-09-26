@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 🚗 Trabajo Práctico N.º 1 — Concesionaria de Autos CIBR
 
 <p align="center">
@@ -165,9 +166,3 @@ El proyecto busca integrar:
 * 🔐 Control de acceso para las funciones del administrador.
 
 De esta manera, se integran los conocimientos aprendidos durante la cursada en un proyecto web funcional.
-
----
-
-
-
-**Trabajo Práctico N.º 1 — Concesionaria de Autos CIBR**
