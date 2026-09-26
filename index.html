@@ -13,12 +13,15 @@
 <body>
 
     <!-- Encabezado -->
-     <header class="position-relative overflow-hidden shadow">
-    <img src="imagen/fondo.jpg" class="img-fluid rounded" alt="Concesionaria CIBR" style="max-height: 250px; width: 100%; object-fit: cover;">
-    <div class="position-absolute top-0 start-0 w-100 h-100 d-flex flex-column justify-content-end align-items-center text-center p-3" style="background: rgba(0, 0, 0, 0.5);">
-        <h1 class="text-white fw-bold m-0 text-shadow">Concesionaria de Vehículos</h1>
+<header class="position-relative overflow-hidden shadow" style="height: 350px;">
+    <video autoplay loop muted playsinline preload="auto" class="w-100 h-100 position-absolute top-0 start-0" style="object-fit: cover; z-index: 1;">
+        <source src="video/auto-portada.mp4" type="video/mp4">
+        Tu navegador no soporta el formato de video.
+    </video>
+    <div class="position-absolute top-0 start-0 w-100 h-100 d-flex flex-column justify-content-center align-items-center text-center p-3" style="z-index: 2; background: rgba(0, 0, 0, 0.45);">
+    
     </div>
-    </header>
+</header>
      <nav class="sticky-top z-3 bg-black py-2">
             <ul class="nav justify-content-center align-items-center">
                 <li id="item-registro" class="d-none"><a href="#registro" class="nav-link text-white">Ingresar Nuevo Vehículo</a></li>
@@ -202,32 +205,38 @@
 </div>
 </section>
         
-        <!-- Sección 3: Datos de contacto -->
-<section id="contacto" class="card shadow-sm mb-4">
-  <div class="card-body p-4">
-    <h2 class="card-title fw-bold text-center mb-4">Contacto</h2>
+ <!-- Sección de Contacto Simplificada -->
+<div id="contacto" class="container my-5 text-center">
+    <h2 class="fw-bold mb-4 text-white">Contacto</h2>
     
-    <div class="row text-center g-4">
-      <!-- Columna Teléfono -->
-      <div class="col-md-6 d-flex flex-column align-items-center">
-        <img src="imagen/telefono.jpeg" alt="Teléfono" class="mb-3 rounded-circle" shadow-sm style="width: 80px; height: 80px; object-fit: cover;">
-        <h4 class="fw-bold text-uppercase">Por Teléfono</h4>
-        <p class="mb-1 text-muted">Llamanos sin costo al</p>
-        <p class="fw-bold fs-5 mb-2">381-123456</p>
-        <p class="fw-bold mb-0">Horario</p>
-        <p class="text-muted small mb-0">de lunes a viernes de 8:00 a 20:00 hs</p>
-        <p class="text-muted small">y sábados de 8:00 a 14:00 hs.</p>
-      </div>
+    <div class="row justify-content-center g-4">
+        <div class="col-md-5 d-flex align-items-center justify-content-center bg-dark text-white p-4 rounded shadow">
+            <i class="fa-solid fa-phone fs-2 text-warning me-3"></i>
+            <div>
+                <h5 class="fw-bold mb-1 text-white">Teléfono</h5>
+                <p class="text-light m-0 fs-5">3813336790</p>
+            </div>
+        </div>
 
-      <!-- Columna E-mail -->
-      <div class="col-md-6 d-flex flex-column align-items-center">
-        <img src="imagen/mail.jpeg" alt="E-mail" class="mb-3 rounded-circle" shadow-sm style="width: 80px; height: 80px; object-fit: cover;">
-        <h4 class="fw-bold text-uppercase">Por E-mail</h4>
-        <p class="mb-1 text-muted">Enviá tu consulta a</p>
-        <a href="mailto:contacto@cibr.com" class="fw-bold fs-5 text-decoration-none">cibr@gmail.com</a>
-      </div>
+        <div class="col-md-5 d-flex align-items-center justify-content-center bg-dark text-white p-4 rounded shadow">
+            <i class="fa-brands fa-instagram fs-2 text-danger me-3"></i>
+            <div>
+                <h5 class="fw-bold mb-1 text-white">Instagram</h5>
+                <a href="https://www.instagram.com/cibr_oficial_ok?stkn=M2hvY21qbHFhaGxj" target="_blank" class="text-decoration-none text-info fs-5">@cibr_oficial_ok</a>
+            </div>
+        </div>
     </div>
-  </div>
+</div>
+<!-- Sección: Encontranos-->
+<div class="col-12 text-center mt-4">
+    <h3 class="h5 fw-bold text-white mb-3">ENCONTRANOS</h3>
+    <p class="text-white mb-2">Visitá nuestro salón de ventas en</p>
+    <p class="fw-semibold text-white mb-3">AV. Tucumán 128</p>
+    
+    <div class="d-flex justify-content-center">
+        <img src="imagen/fondo.jpg" alt="Concesionaria CIBR" class="img-fluid rounded shadow w-75" style="max-height: 350px; object-fit: cover;">
+    </div>
+</div>
 </section>
        </main>
 
